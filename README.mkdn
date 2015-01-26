@@ -1,5 +1,6 @@
-AndroidOpenDevelopment
+Icarus Reborn
 ===========
+Icarus Reborn is based off of AOD.
 
 AndroidOpenDevelopment is meant to be an AOSP/CAF base with hardware support for various OEM chipsets
 such as QCOM OMAP Tegra, etc, without any additional feature support.
@@ -36,7 +37,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AndroidOpenDevelopment trees, use a command like this:
 
-    repo init -u git://github.com/AndroidOpenDevelopment/android.git -b lp
+    repo init -u git://github.com/TeamLiteSpeed/android.git -b lp
 
 Then to sync up:
 
