@@ -38,6 +38,18 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AndroidOpenDevelopment trees, use a command like this:
 
     repo init -u git://github.com/TeamLiteSpeed/android.git -b lp
+    
+Then bring in the trees for your device:
+
+    curl -L -o .repo/local_manifests/DEVICE.xml -O -L https://raw.github.com/TeamLiteSpeed/icarus-devices/lp/DEVICE.xml
+
+Replace DEVICE with your device. 
+
+CURRENTLY SUPPORTED DEVICES:
+
+shamu
+vs980
+jfltevzw
 
 Then to sync up:
 
