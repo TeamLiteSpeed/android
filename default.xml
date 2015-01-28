@@ -269,7 +269,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="AndroidOpenDevelopment/android_frameworks_av" groups="pdk" remote="github" revision="lp" />
-  <project path="frameworks/base" name="AndroidOpenDevelopment/android_frameworks_base" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -367,16 +366,12 @@
   <project path="packages/apps/Camera2" name="AndroidOpenDevelopment/android_packages_apps_Camera2" remote="github" revision="lp" />
   <project path="packages/apps/CellBroadcastReceiver" name="AndroidOpenDevelopment/android_packages_apps_CellBroadcastReceiver" remote="github" revision="lp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="AndroidOpenDevelopment/android_packages_apps_Contacts" remote="github" revision="lp" />
-  <project path="packages/apps/ContactsCommon" name="AndroidOpenDevelopment/android_packages_apps_ContactsCommon" remote="github" revision="lp" />
   <project path="packages/apps/DeskClock" name="AndroidOpenDevelopment/android_packages_apps_DeskClock" remote="github" revision="lp" />
-  <project path="packages/apps/Dialer" name="AndroidOpenDevelopment/android_packages_apps_Dialer" remote="github" revision="lp" />
   <project path="packages/apps/Email" name="AndroidOpenDevelopment/android_packages_apps_Email" remote="github" revision="lp" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AndroidOpenDevelopment/android_packages_apps_Gallery2" remote="github" revision="lp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="AndroidOpenDevelopment/android_packages_apps_InCallUI" remote="github" revision="lp" />
   <project path="packages/apps/KeyChain" name="AndroidOpenDevelopment/android_packages_apps_KeyChain" remote="github" revision="lp" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="AndroidOpenDevelopment/android_packages_apps_Launcher3" remote="github" revision="lp" />
@@ -389,7 +384,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="AndroidOpenDevelopment/android_packages_apps_PackageInstaller" remote="github" revision="lp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PhoneCommon" name="AndroidOpenDevelopment/android_packages_apps_PhoneCommon" remote="github" revision="lp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -404,7 +398,6 @@
   <project path="packages/apps/UnifiedEmail" name="AndroidOpenDevelopment/android_packages_apps_UnifiedEmail" remote="github" revision="lp" />
   <project path="packages/apps/VoiceDialer" name="AndroidOpenDevelopment/android_packages_apps_VoiceDialer" remote="github" revision="lp" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="AndroidOpenDevelopment/android_packages_inputmethods_LatinIME" remote="github" revision="lp" />
   <project path="packages/inputmethods/OpenWnn" name="AndroidOpenDevelopment/android_packages_inputmethods_OpenWnn" remote="github" revision="lp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -420,7 +413,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="AndroidOpenDevelopment/android_packages_services_Mms" remote="github" revision="lp" />
   <project path="packages/services/Telecomm" name="AndroidOpenDevelopment/android_packages_services_Telecomm" remote="github" revision="lp" />
-  <project path="packages/services/Telephony" name="AndroidOpenDevelopment/android_packages_services_Telephony" remote="github" revision="lp" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -532,4 +524,14 @@
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
   <project path="packages/apps/BluetoothExt" name="AndroidOpenDevelopment/android_packages_apps_BluetoothExt" remote="github" revision="lp" />
   <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
+
+  <!--Icarus stuff-->
+  <project path="frameworks/base" name="TeamLiteSpeed/android_frameworks_base" groups="pdk-cw-fs" remote="github" revision="lp" />
+  <project path="packages/apps/PhoneCommon" name="TeamLiteSpeed/android_packages_apps_PhoneCommon" remote="github" revision="lp" />
+  <project path="packages/apps/Contacts" name="TeamLiteSpeed/android_packages_apps_Contacts" remote="github" revision="lp" />
+  <project path="packages/apps/ContactsCommon" name="TeamLiteSpeed/android_packages_apps_ContactsCommon" remote="github" revision="lp" />
+  <project path="packages/apps/Dialer" name="TeamLiteSpeed/android_packages_apps_Dialer" remote="github" revision="lp" />
+  <project path="packages/apps/InCallUI" name="TeamLiteSpeed/android_packages_apps_InCallUI" remote="github" revision="lp" />
+  <project path="packages/inputmethods/LatinIME" name="TeamLiteSpeed/android_packages_inputmethods_LatinIME" remote="github" revision="lp" />
+  <project path="packages/services/Telephony" name="TeamLiteSpeed/android_packages_services_Telephony" remote="github" revision="lp" />
 </manifest>
