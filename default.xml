@@ -411,7 +411,6 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="AndroidOpenDevelopment/android_packages_services_Mms" remote="github" revision="lp" />
-  <project path="packages/services/Telecomm" name="AndroidOpenDevelopment/android_packages_services_Telecomm" remote="github" revision="lp" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
