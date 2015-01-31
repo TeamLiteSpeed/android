@@ -387,7 +387,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AndroidOpenDevelopment/android_packages_apps_Settings" remote="github" revision="lp" />
   <project path="packages/apps/SmartCardService" name="AndroidOpenDevelopment/android_packages_apps_SmartCardService" remote="github" revision="lp" />
   <project path="packages/apps/SoundRecorder" name="AndroidOpenDevelopment/android_packages_apps_SoundRecorder" remote="github" revision="lp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -534,4 +533,5 @@
   <project path="packages/apps/InCallUI" name="TeamLiteSpeed/android_packages_apps_InCallUI" remote="github" revision="lp" />
   <project path="packages/inputmethods/LatinIME" name="TeamLiteSpeed/android_packages_inputmethods_LatinIME" remote="github" revision="lp" />
   <project path="packages/services/Telephony" name="TeamLiteSpeed/android_packages_services_Telephony" remote="github" revision="lp" />
+  <project path="packages/apps/Settings" name="TeamLiteSpeed/android_packages_apps_Settings" remote="github" revision="lp" />
 </manifest>
