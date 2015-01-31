@@ -534,4 +534,5 @@
   <project path="packages/inputmethods/LatinIME" name="TeamLiteSpeed/android_packages_inputmethods_LatinIME" remote="github" revision="lp" />
   <project path="packages/services/Telephony" name="TeamLiteSpeed/android_packages_services_Telephony" remote="github" revision="lp" />
   <project path="packages/apps/Settings" name="TeamLiteSpeed/android_packages_apps_Settings" remote="github" revision="lp" />
+  <project path="packages/services/Telecomm" name="TeamLiteSpeed/android_packages_services_Telecomm" remote="github" revision="lp" />
 </manifest>
