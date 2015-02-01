@@ -16,7 +16,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AndroidOpenDevelopment/android_build" groups="pdk,tradefed" remote="github" revision="lp" >
+  <project path="build" name="TeamLiteSpeed/android_build" remote="TLS" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -499,8 +499,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- AOD specifis -->
-  <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
-  <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
+  <project path="android" name="TeamLiteSpeed/android" remote="TLS" revision="lp" />
+  <project path="vendor/icarus" name="TeamLiteSpeed/android_vendor_icarus" remote="TLS" revision="lp" />
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
