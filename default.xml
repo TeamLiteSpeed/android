@@ -499,8 +499,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- AOD specifis -->
-  <project path="android" name="TeamLiteSpeed/android" remote="TLS" revision="lp" />
-  <project path="vendor/icarus" name="TeamLiteSpeed/android_vendor_incarus" remote="TLS" revision="lp" />
+  <project path="android" name="android" remote="TLS" revision="lp" />
+  <project path="vendor/icarus" name="android_vendor_icarus" remote="TLS" revision="lp" />
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
