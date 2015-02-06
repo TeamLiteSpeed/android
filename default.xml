@@ -10,7 +10,7 @@
            review="review.androidopendevelopment.com" />
            
   <remote  name="TLS"
-           fetch="git://github.com/TeamLiteSpeed/" />	
+           fetch="git://github.com/" />	
 
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
