@@ -404,7 +404,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="AndroidOpenDevelopment/android_packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="AndroidOpenDevelopment/android_packages_providers_MediaProvider" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AndroidOpenDevelopment/android_packages_providers_TelephonyProvider" remote="github" revision="lp" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
@@ -535,6 +534,7 @@
   <project path="packages/inputmethods/LatinIME" name="TeamLiteSpeed/android_packages_inputmethods_LatinIME" remote="TLS" revision="lp-black" />
   <project path="packages/services/Telephony" name="TeamLiteSpeed/android_packages_services_Telephony" remote="TLS" revision="lp-black" />
   <project path="packages/apps/Settings" name="TeamLiteSpeed/android_packages_apps_Settings" remote="TLS" revision="lp-black" />
+  <project path="packages/providers/MediaProvider" name="TeamLiteSpeed/android_packages_providers_MediaProvider" remote="TLS" revision="lp-black" />
   <project path="packages/services/Telecomm" name="TeamLiteSpeed/android_packages_services_Telecomm" remote="TLS" revision="lp" />
   
 </manifest>
