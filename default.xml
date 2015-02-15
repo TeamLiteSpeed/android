@@ -512,7 +512,7 @@
   <project path="hardware/ti/wpan" name="AndroidOpenDevelopment/android_hardware_ti_wpan" remote="github" revision="lp" />
 
   <!-- Extra qcom related packages -->
-  <project path="device/qcom/common" name="AndroidOpenDevelopment/android_device_qcom_common" remote="github" revision="lp" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
   <project path="device/qcom/sepolicy" name="AndroidOpenDevelopment/android_device_qcom_sepolicy" remote="github" revision="lp" />
   <project path="external/ant-wireless/ant_native" name="AndroidOpenDevelopment/android_external_ant-wireless_ant_native" remote="github" revision="lp" />
   <project path="external/ant-wireless/ant_service" name="AndroidOpenDevelopment/android_external_ant-wireless_ant_service" remote="github" revision="lp" />
