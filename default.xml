@@ -295,7 +295,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="AndroidOpenDevelopment/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="AndroidOpenDevelopment/android_frameworks_opt_vcard" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -527,6 +526,7 @@
   <!--Icarus stuff-->
   <project path="frameworks/base" name="TeamLiteSpeed/android_frameworks_base" remote="TLS" revision="lp" />
   <project path="frameworks/native" name="TeamLiteSpeed/android_frameworks_native" remote="TLS" revision="lp" />
+  <project path="frameworks/opt/telephony" name="TeamLiteSpeed/android_frameworks_opt_telephony" remote="TLS" revision="lp" />
   <project path="packages/apps/PhoneCommon" name="TeamLiteSpeed/android_packages_apps_PhoneCommon" remote="TLS" revision="lp" />
   <project path="packages/apps/Contacts" name="TeamLiteSpeed/android_packages_apps_Contacts" remote="TLS" revision="lp" />
   <project path="packages/apps/ContactsCommon" name="TeamLiteSpeed/android_packages_apps_ContactsCommon" remote="TLS" revision="lp" />
